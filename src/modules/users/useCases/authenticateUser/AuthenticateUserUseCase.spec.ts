@@ -15,7 +15,7 @@ describe('authenticate user', () => {
   });
 
   it('should authentica new session', async () => {
-    const user = { name: "test", email: "test@example.com", password: "123456" };
+    const user = { name: "test", email: "test@example1.com", password: "123456" };
 
     await createUserUseCase.execute({
       name: user.name,
